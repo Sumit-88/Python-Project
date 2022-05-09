@@ -1,22 +1,22 @@
-def a(x):
+def a():
 	print("A")
-	return True
-def b(x):
+	return
+def b():
 	print("B")
-	return True
-def c(x):
+	return
+def c():
 	print("C")
-	return True
-def d(x):
+	return
+def d():
 	print("D")
-	return True
-def e(x):
+	return
+def e():
 	return False
 l=True
 while l:
 	fun=[e,a,b,c,d]
 	try:
 		n=int(input("Enter Choice form 0 to 4 :"))
-		l=fun[n] (0)
+		l=fun[n] ()
 	except IndexError:
  		Invalid_Input
